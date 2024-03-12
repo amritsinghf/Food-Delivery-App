@@ -1,0 +1,89 @@
+ul {
+  list-style-type: none;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 6vw;
+}
+.cart {
+  width: 2vw;
+}
+.nav-items {
+  font-size: 1.3rem;
+  padding: 0px 20px;
+}
+.nav-items > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items > ul > li {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-items > ul > li:hover {
+  color: red;
+}
+
+/* Body part  */
+body {
+  padding: 0 30px;
+  font-family: "Poppins", sans-serif;
+}
+.filter-btn {
+  padding: 10px;
+  cursor: pointer;
+}
+.res-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card > li > img {
+  height: 250px;
+}
+.card > li > div {
+  margin: 10px;
+}
+.res-card {
+  width: 350px;
+  border-radius: 12px;
+  list-style: none;
+  margin: 20px;
+}
+.res-card:hover {
+  border: 2px solid rgb(219, 201, 201);
+}
+.card-img {
+  border-radius: 12px;
+  width: 100%;
+}
+.card-details {
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.res-card > div {
+  font-weight: bold;
+}
+.res-card > div > p {
+  font-weight: 400;
+}
